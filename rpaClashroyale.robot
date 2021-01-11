@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    OperatingSystem
-Library    Libraries/PrimeControlApi.py
+Library    Libraries/PrimeControlApiClashroyale.py
 
 *** Variables ***
 ${BROWSER}          Chrome
