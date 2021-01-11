@@ -1,0 +1,3954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20210110 21:41:33.785" rpa="true">
+<suite id="s1" name="rpaClashroyale" source="Z:\workspacePrimeControl\rpaClashroyale.robot">
+<test id="s1-t1" name="Executar Clashroyale">
+<kw name="Iniciando o Robo Clashroyale">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.033" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:34.033" endtime="20210110 21:41:34.033"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>'=== Relatório do passos do ROBO: ============================================='</arg>
+</arguments>
+<assign>
+<var>${message}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.033" level="INFO">${message} = '=== Relatório do passos do ROBO: ============================================='</msg>
+<status status="PASS" starttime="20210110 21:41:34.033" endtime="20210110 21:41:34.033"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>t</arg>
+</arguments>
+<assign>
+<var>${tipoKw}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.034" level="INFO">${tipoKw} = t</msg>
+<status status="PASS" starttime="20210110 21:41:34.034" endtime="20210110 21:41:34.034"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>w</arg>
+</arguments>
+<assign>
+<var>${mode}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.034" level="INFO">${mode} = w</msg>
+<status status="PASS" starttime="20210110 21:41:34.034" endtime="20210110 21:41:34.034"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+<arg>${mode}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.034" endtime="20210110 21:41:34.035"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>...</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.036" endtime="20210110 21:41:34.036"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Iniciando o Robo Clashroyale =============================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:34.037" level="INFO">'=== Inicia Tarefa: Iniciando o Robo Clashroyale =============================='</msg>
+<status status="PASS" starttime="20210110 21:41:34.036" endtime="20210110 21:41:34.037"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.037" endtime="20210110 21:41:34.037"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.037" endtime="20210110 21:41:34.038"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.038" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:34.038" endtime="20210110 21:41:34.038"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.038" endtime="20210110 21:41:34.039"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.036" endtime="20210110 21:41:34.039"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Iniciando o Robo Clashroyale'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:34.040" level="INFO">'Iniciando o Robo Clashroyale'</msg>
+<status status="PASS" starttime="20210110 21:41:34.040" endtime="20210110 21:41:34.040"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.040" endtime="20210110 21:41:34.040"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.040" endtime="20210110 21:41:34.041"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.041" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:34.041" endtime="20210110 21:41:34.041"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.041" endtime="20210110 21:41:34.042"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.039" endtime="20210110 21:41:34.042"></status>
+</kw>
+<kw name="Get Datetime Now" library="PrimeControlApiClashroyale">
+<assign>
+<var>${StartBot}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.042" level="INFO">${StartBot} = 2021-01-10 21:41:34.042165</msg>
+<status status="PASS" starttime="20210110 21:41:34.042" endtime="20210110 21:41:34.042"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>'Inicio do Robo: ${StartBot}'</arg>
+</arguments>
+<assign>
+<var>${StartBot}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.043" level="INFO">${StartBot} = 'Inicio do Robo: 2021-01-10 21:41:34.042165'</msg>
+<status status="PASS" starttime="20210110 21:41:34.043" endtime="20210110 21:41:34.043"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>${StartBot}</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:34.043" level="INFO">'Inicio do Robo: 2021-01-10 21:41:34.042165'</msg>
+<status status="PASS" starttime="20210110 21:41:34.043" endtime="20210110 21:41:34.043"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.043" endtime="20210110 21:41:34.044"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.044" endtime="20210110 21:41:34.044"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.045" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:34.044" endtime="20210110 21:41:34.045"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.045" endtime="20210110 21:41:34.046"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.043" endtime="20210110 21:41:34.046"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.033" endtime="20210110 21:41:34.046"></status>
+</kw>
+<kw name="Acessar Website Clashroyale">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Acessar Website Clashroyale ==============================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:34.047" level="INFO">'=== Inicia Tarefa: Acessar Website Clashroyale ==============================='</msg>
+<status status="PASS" starttime="20210110 21:41:34.047" endtime="20210110 21:41:34.047"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.047" endtime="20210110 21:41:34.048"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.048" endtime="20210110 21:41:34.048"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.048" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:34.048" endtime="20210110 21:41:34.048"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.048" endtime="20210110 21:41:34.049"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.047" endtime="20210110 21:41:34.049"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Abre Navegador'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:34.050" level="INFO">'Abre Navegador'</msg>
+<status status="PASS" starttime="20210110 21:41:34.050" endtime="20210110 21:41:34.050"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.050" endtime="20210110 21:41:34.051"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.051" endtime="20210110 21:41:34.051"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:34.051" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:34.051" endtime="20210110 21:41:34.051"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:34.051" endtime="20210110 21:41:34.052"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.050" endtime="20210110 21:41:34.053"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:34.053" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
+<status status="PASS" starttime="20210110 21:41:34.053" endtime="20210110 21:41:37.373"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Maximiza Tela do Navegador'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:37.374" level="INFO">'Maximiza Tela do Navegador'</msg>
+<status status="PASS" starttime="20210110 21:41:37.374" endtime="20210110 21:41:37.375"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:37.375" endtime="20210110 21:41:37.376"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:37.376" endtime="20210110 21:41:37.377"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:37.378" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:37.377" endtime="20210110 21:41:37.378"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:37.379" endtime="20210110 21:41:37.382"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:37.373" endtime="20210110 21:41:37.382"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20210110 21:41:37.383" endtime="20210110 21:41:39.554"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Vai para a URL: ${URL}'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:39.555" level="INFO">'Vai para a URL: https://developer.clashroyale.com/'</msg>
+<status status="PASS" starttime="20210110 21:41:39.554" endtime="20210110 21:41:39.555"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:39.555" endtime="20210110 21:41:39.555"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:39.556" endtime="20210110 21:41:39.556"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:39.556" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:39.556" endtime="20210110 21:41:39.556"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:39.557" endtime="20210110 21:41:39.558"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:39.554" endtime="20210110 21:41:39.558"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:39.558" level="INFO">Opening url 'https://developer.clashroyale.com/'</msg>
+<status status="PASS" starttime="20210110 21:41:39.558" endtime="20210110 21:41:41.076"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.046" endtime="20210110 21:41:41.076"></status>
+</kw>
+<kw name="Logar Website Clashroyale">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Logar Website Clashroyale ================================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.078" level="INFO">'=== Inicia Tarefa: Logar Website Clashroyale ================================='</msg>
+<status status="PASS" starttime="20210110 21:41:41.078" endtime="20210110 21:41:41.078"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.078" endtime="20210110 21:41:41.078"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.078" endtime="20210110 21:41:41.078"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.079" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.079" endtime="20210110 21:41:41.079"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.079" endtime="20210110 21:41:41.080"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.077" endtime="20210110 21:41:41.080"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda o elemento Menu Login ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.081" level="INFO">'Aguarda o elemento Menu Login ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:41.080" endtime="20210110 21:41:41.081"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.081" endtime="20210110 21:41:41.081"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.081" endtime="20210110 21:41:41.081"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.082" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.081" endtime="20210110 21:41:41.082"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.082" endtime="20210110 21:41:41.083"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.080" endtime="20210110 21:41:41.083"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${MnuLogin}</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.083" endtime="20210110 21:41:41.390"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no elemento Menu Login'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.391" level="INFO">'Clica no elemento Menu Login'</msg>
+<status status="PASS" starttime="20210110 21:41:41.390" endtime="20210110 21:41:41.391"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.391" endtime="20210110 21:41:41.391"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.391" endtime="20210110 21:41:41.392"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.393" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.392" endtime="20210110 21:41:41.393"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.393" endtime="20210110 21:41:41.394"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.390" endtime="20210110 21:41:41.394"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${MnuLogin}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.395" level="INFO">Clicking element 'xPath://*[@id="content"]/div/div[2]/div/header/div/div/div[3]/div/a[2]'.</msg>
+<status status="PASS" starttime="20210110 21:41:41.395" endtime="20210110 21:41:41.498"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda input Email ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.499" level="INFO">'Aguarda input Email ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:41.498" endtime="20210110 21:41:41.499"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.499" endtime="20210110 21:41:41.499"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.500" endtime="20210110 21:41:41.500"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.501" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.500" endtime="20210110 21:41:41.501"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.501" endtime="20210110 21:41:41.504"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.498" endtime="20210110 21:41:41.505"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${inpEmail}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.505" endtime="20210110 21:41:41.535"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Escreve o EMail no campo Email'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.537" level="INFO">'Escreve o EMail no campo Email'</msg>
+<status status="PASS" starttime="20210110 21:41:41.537" endtime="20210110 21:41:41.538"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.538" endtime="20210110 21:41:41.538"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.538" endtime="20210110 21:41:41.539"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.539" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.539" endtime="20210110 21:41:41.540"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.540" endtime="20210110 21:41:41.541"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.535" endtime="20210110 21:41:41.541"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${inpEmail}</arg>
+<arg>rprojetos.ti@hotmail.com</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.541" level="INFO">Typing text 'rprojetos.ti@hotmail.com' into text field 'xPath://*[@id="email"]'.</msg>
+<status status="PASS" starttime="20210110 21:41:41.541" endtime="20210110 21:41:41.668"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Escreve a senha no campo senha'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.669" level="INFO">'Escreve a senha no campo senha'</msg>
+<status status="PASS" starttime="20210110 21:41:41.669" endtime="20210110 21:41:41.670"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.670" endtime="20210110 21:41:41.670"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.670" endtime="20210110 21:41:41.671"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.671" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.671" endtime="20210110 21:41:41.671"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.671" endtime="20210110 21:41:41.672"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.668" endtime="20210110 21:41:41.672"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${inpSenha}</arg>
+<arg>202200202200</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.673" level="INFO">Typing password into text field 'xPath://*[@id="password"]'.</msg>
+<msg timestamp="20210110 21:41:41.714" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20210110 21:41:41.765" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20210110 21:41:41.672" endtime="20210110 21:41:41.765"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no botão login'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.766" level="INFO">'Clica no botão login'</msg>
+<status status="PASS" starttime="20210110 21:41:41.766" endtime="20210110 21:41:41.766"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.766" endtime="20210110 21:41:41.767"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.767" endtime="20210110 21:41:41.767"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.768" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.767" endtime="20210110 21:41:41.768"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.768" endtime="20210110 21:41:41.769"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.766" endtime="20210110 21:41:41.770"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${BtnLogin}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.770" level="INFO">Clicking button 'xPath://*[@id="content"]/div/div[2]/div/div/div/div/div/div/form/div[4]/button'.</msg>
+<status status="PASS" starttime="20210110 21:41:41.770" endtime="20210110 21:41:41.832"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.077" endtime="20210110 21:41:41.832"></status>
+</kw>
+<kw name="Acessar Minha Conta Clashroyale">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Acessar Minha Conta Clashroyale ==========================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.833" level="INFO">'=== Inicia Tarefa: Acessar Minha Conta Clashroyale ==========================='</msg>
+<status status="PASS" starttime="20210110 21:41:41.833" endtime="20210110 21:41:41.833"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.833" endtime="20210110 21:41:41.833"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.833" endtime="20210110 21:41:41.834"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.834" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.834" endtime="20210110 21:41:41.834"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.834" endtime="20210110 21:41:41.836"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.832" endtime="20210110 21:41:41.836"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda o DropDown de acesso a My Accout ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:41.837" level="INFO">'Aguarda o DropDown de acesso a My Accout ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:41.836" endtime="20210110 21:41:41.837"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.837" endtime="20210110 21:41:41.837"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.837" endtime="20210110 21:41:41.838"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:41.838" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:41.838" endtime="20210110 21:41:41.838"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.838" endtime="20210110 21:41:41.839"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.836" endtime="20210110 21:41:41.839"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${dropUserLogin}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:41.840" endtime="20210110 21:41:42.693"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no DropDown do usuario logado'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.694" level="INFO">'Clica no DropDown do usuario logado'</msg>
+<status status="PASS" starttime="20210110 21:41:42.694" endtime="20210110 21:41:42.694"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.695" endtime="20210110 21:41:42.695"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.695" endtime="20210110 21:41:42.695"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:42.696" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:42.696" endtime="20210110 21:41:42.696"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.696" endtime="20210110 21:41:42.697"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.694" endtime="20210110 21:41:42.697"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${dropUserLogin}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.697" level="INFO">Clicking element 'xPath://*[@id="content"]/div/div[2]/div/header/div/div/div[3]/div/div/button'.</msg>
+<status status="PASS" starttime="20210110 21:41:42.697" endtime="20210110 21:41:42.741"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no elemento My Account'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.743" level="INFO">'Clica no elemento My Account'</msg>
+<status status="PASS" starttime="20210110 21:41:42.742" endtime="20210110 21:41:42.743"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.743" endtime="20210110 21:41:42.744"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.744" endtime="20210110 21:41:42.744"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:42.745" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:42.744" endtime="20210110 21:41:42.745"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.745" endtime="20210110 21:41:42.746"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.742" endtime="20210110 21:41:42.746"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${dropMyAccount}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.746" level="INFO">Clicking element 'xPath://*[@id="content"]/div/div[2]/div/header/div/div/div[3]/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20210110 21:41:42.746" endtime="20210110 21:41:42.806"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:41.832" endtime="20210110 21:41:42.807"></status>
+</kw>
+<kw name="Criar Nova Chave Clashroyale">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Criar Nova Chave Clashroyale =============================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.808" level="INFO">'=== Inicia Tarefa: Criar Nova Chave Clashroyale =============================='</msg>
+<status status="PASS" starttime="20210110 21:41:42.808" endtime="20210110 21:41:42.808"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.808" endtime="20210110 21:41:42.809"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.809" endtime="20210110 21:41:42.809"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:42.810" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:42.809" endtime="20210110 21:41:42.810"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.810" endtime="20210110 21:41:42.811"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.808" endtime="20210110 21:41:42.811"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda o botão Create New Key ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.812" level="INFO">'Aguarda o botão Create New Key ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:42.812" endtime="20210110 21:41:42.812"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.812" endtime="20210110 21:41:42.813"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.813" endtime="20210110 21:41:42.813"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:42.814" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:42.813" endtime="20210110 21:41:42.814"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.814" endtime="20210110 21:41:42.815"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.811" endtime="20210110 21:41:42.815"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${BtnCreatKey}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.816" endtime="20210110 21:41:42.853"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no botão Create New Key'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.853" level="INFO">'Clica no botão Create New Key'</msg>
+<status status="PASS" starttime="20210110 21:41:42.853" endtime="20210110 21:41:42.853"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.853" endtime="20210110 21:41:42.854"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.854" endtime="20210110 21:41:42.854"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:42.855" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:42.854" endtime="20210110 21:41:42.855"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.855" endtime="20210110 21:41:42.858"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.853" endtime="20210110 21:41:42.858"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BtnCreatKey}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.859" level="INFO">Clicking element 'xPath://*[@id="content"]/div/div[2]/div/div/section[2]/div/div/div[2]/p/a/span[2]'.</msg>
+<status status="PASS" starttime="20210110 21:41:42.858" endtime="20210110 21:41:42.918"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Obtem o IP externo dinâmicamente'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:42.919" level="INFO">'Obtem o IP externo dinâmicamente'</msg>
+<status status="PASS" starttime="20210110 21:41:42.919" endtime="20210110 21:41:42.919"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.919" endtime="20210110 21:41:42.920"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.920" endtime="20210110 21:41:42.920"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:42.921" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:42.921" endtime="20210110 21:41:42.921"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:42.921" endtime="20210110 21:41:42.922"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.918" endtime="20210110 21:41:42.922"></status>
+</kw>
+<kw name="Get External Ip" library="PrimeControlApiClashroyale">
+<assign>
+<var>${IP}</var>
+</assign>
+<msg timestamp="20210110 21:41:43.728" level="INFO">${IP} = 164.163.142.21</msg>
+<status status="PASS" starttime="20210110 21:41:42.922" endtime="20210110 21:41:43.728"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda o Campo Key Name ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:43.729" level="INFO">'Aguarda o Campo Key Name ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:43.729" endtime="20210110 21:41:43.729"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.729" endtime="20210110 21:41:43.730"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.730" endtime="20210110 21:41:43.730"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:43.731" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:43.730" endtime="20210110 21:41:43.731"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.731" endtime="20210110 21:41:43.732"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:43.728" endtime="20210110 21:41:43.732"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${KeyName}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.732" endtime="20210110 21:41:43.753"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Gera automaticamente um nome para a Key'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:43.754" level="INFO">'Gera automaticamente um nome para a Key'</msg>
+<status status="PASS" starttime="20210110 21:41:43.754" endtime="20210110 21:41:43.754"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.754" endtime="20210110 21:41:43.755"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.755" endtime="20210110 21:41:43.756"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:43.756" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:43.756" endtime="20210110 21:41:43.756"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.757" endtime="20210110 21:41:43.758"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:43.754" endtime="20210110 21:41:43.758"></status>
+</kw>
+<kw name="Create Name Api" library="PrimeControlApiClashroyale">
+<assign>
+<var>${nameKeyApi}</var>
+</assign>
+<msg timestamp="20210110 21:41:43.758" level="INFO">${nameKeyApi} = KeyTest(20210110214143757868)</msg>
+<status status="PASS" starttime="20210110 21:41:43.758" endtime="20210110 21:41:43.759"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Insere o nome da key no campo key Name'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:43.760" level="INFO">'Insere o nome da key no campo key Name'</msg>
+<status status="PASS" starttime="20210110 21:41:43.759" endtime="20210110 21:41:43.760"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.760" endtime="20210110 21:41:43.760"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.761" endtime="20210110 21:41:43.761"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:43.761" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:43.761" endtime="20210110 21:41:43.762"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.762" endtime="20210110 21:41:43.763"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:43.759" endtime="20210110 21:41:43.763"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${KeyName}</arg>
+<arg>${nameKeyApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:43.763" level="INFO">Typing text 'KeyTest(20210110214143757868)' into text field 'xPath://*[@id="name"]'.</msg>
+<status status="PASS" starttime="20210110 21:41:43.763" endtime="20210110 21:41:43.895"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Insere uma descrição da key no campo Description'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:43.897" level="INFO">'Insere uma descrição da key no campo Description'</msg>
+<status status="PASS" starttime="20210110 21:41:43.896" endtime="20210110 21:41:43.897"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.897" endtime="20210110 21:41:43.897"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.898" endtime="20210110 21:41:43.898"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:43.898" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:43.898" endtime="20210110 21:41:43.898"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:43.898" endtime="20210110 21:41:43.899"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:43.896" endtime="20210110 21:41:43.900"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${KeyDesc}</arg>
+<arg>Realizando a criação de uma key para teste</arg>
+</arguments>
+<msg timestamp="20210110 21:41:43.900" level="INFO">Typing text 'Realizando a criação de uma key para teste' into text field 'xPath://*[@id="description"]'.</msg>
+<status status="PASS" starttime="20210110 21:41:43.900" endtime="20210110 21:41:44.047"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Isere no campo Allowed Ip Addresses o ip obtido dinamicamente'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:44.048" level="INFO">'Isere no campo Allowed Ip Addresses o ip obtido dinamicamente'</msg>
+<status status="PASS" starttime="20210110 21:41:44.048" endtime="20210110 21:41:44.048"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.048" endtime="20210110 21:41:44.048"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.049" endtime="20210110 21:41:44.049"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:44.049" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:44.049" endtime="20210110 21:41:44.049"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.049" endtime="20210110 21:41:44.050"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:44.047" endtime="20210110 21:41:44.051"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${KeyIp}</arg>
+<arg>${IP}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:44.051" level="INFO">Typing text '164.163.142.21' into text field 'xPath://*[@id="range-0"]'.</msg>
+<status status="PASS" starttime="20210110 21:41:44.051" endtime="20210110 21:41:44.143"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no botão Create Key'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:44.144" level="INFO">'Clica no botão Create Key'</msg>
+<status status="PASS" starttime="20210110 21:41:44.144" endtime="20210110 21:41:44.144"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.144" endtime="20210110 21:41:44.145"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.145" endtime="20210110 21:41:44.145"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:44.146" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:44.145" endtime="20210110 21:41:44.146"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.146" endtime="20210110 21:41:44.147"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:44.144" endtime="20210110 21:41:44.147"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>${BtnKey}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:44.147" level="INFO">Clicking button 'xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[2]/form/div[5]/button'.</msg>
+<status status="PASS" starttime="20210110 21:41:44.147" endtime="20210110 21:41:44.210"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[2]/form/div[4]/div/span[2]</arg>
+</arguments>
+<assign>
+<var>${keysLimit}</var>
+</assign>
+<msg timestamp="20210110 21:41:44.210" level="INFO">${keysLimit} = xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[2]/form/div[4]/div/span[2]</msg>
+<status status="PASS" starttime="20210110 21:41:44.210" endtime="20210110 21:41:44.210"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda 2 segundos para verificar se vai dar tudo certo com a criação da key'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:44.211" level="INFO">'Aguarda 2 segundos para verificar se vai dar tudo certo com a criação da key'</msg>
+<status status="PASS" starttime="20210110 21:41:44.211" endtime="20210110 21:41:44.211"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.211" endtime="20210110 21:41:44.212"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.212" endtime="20210110 21:41:44.212"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:44.212" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:44.212" endtime="20210110 21:41:44.212"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:44.213" endtime="20210110 21:41:44.214"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:44.210" endtime="20210110 21:41:44.214"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.216" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210110 21:41:44.214" endtime="20210110 21:41:46.216"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Seta mensagem a ser Registra, caso a key seja criada com sucesso'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.217" level="INFO">'Seta mensagem a ser Registra, caso a key seja criada com sucesso'</msg>
+<status status="PASS" starttime="20210110 21:41:46.216" endtime="20210110 21:41:46.217"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.217" endtime="20210110 21:41:46.217"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.218" endtime="20210110 21:41:46.218"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.218" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.218" endtime="20210110 21:41:46.218"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.218" endtime="20210110 21:41:46.220"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.216" endtime="20210110 21:41:46.220"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>'A nova chave foi criada com sucesso, para ser utilizada'</arg>
+</arguments>
+<assign>
+<var>${StatusKeyApi}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.220" level="INFO">${StatusKeyApi} = 'A nova chave foi criada com sucesso, para ser utilizada'</msg>
+<status status="PASS" starttime="20210110 21:41:46.220" endtime="20210110 21:41:46.220"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Seta essa mensagem para uso global, para que essa variavel seja utilizada por outra key'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.221" level="INFO">'Seta essa mensagem para uso global, para que essa variavel seja utilizada por outra key'</msg>
+<status status="PASS" starttime="20210110 21:41:46.221" endtime="20210110 21:41:46.221"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.221" endtime="20210110 21:41:46.222"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.222" endtime="20210110 21:41:46.222"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.223" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.223" endtime="20210110 21:41:46.223"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.223" endtime="20210110 21:41:46.224"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.220" endtime="20210110 21:41:46.224"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${StatusKeyApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.225" level="INFO">${StatusKeyApi} = 'A nova chave foi criada com sucesso, para ser utilizada'</msg>
+<status status="PASS" starttime="20210110 21:41:46.224" endtime="20210110 21:41:46.225"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Verifica se existe uma mensagem de limite do numero de keys criadas atingidas'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.225" level="INFO">'Verifica se existe uma mensagem de limite do numero de keys criadas atingidas'</msg>
+<status status="PASS" starttime="20210110 21:41:46.225" endtime="20210110 21:41:46.225"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.225" endtime="20210110 21:41:46.226"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.226" endtime="20210110 21:41:46.226"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.227" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.226" endtime="20210110 21:41:46.227"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.227" endtime="20210110 21:41:46.229"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.225" endtime="20210110 21:41:46.229"></status>
+</kw>
+<kw name="Run Keyword And Return Status" library="BuiltIn">
+<doc>Runs the given keyword with given arguments and returns the status as a Boolean value.</doc>
+<arguments>
+<arg>Element Should Be Visible</arg>
+<arg>${keysLimit}</arg>
+</arguments>
+<assign>
+<var>${IsKeyLimit}</var>
+</assign>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>${keysLimit}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.252" level="INFO">Element 'xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[2]/form/div[4]/div/span[2]' is displayed.</msg>
+<status status="PASS" starttime="20210110 21:41:46.229" endtime="20210110 21:41:46.252"></status>
+</kw>
+<msg timestamp="20210110 21:41:46.253" level="INFO">${IsKeyLimit} = True</msg>
+<status status="PASS" starttime="20210110 21:41:46.229" endtime="20210110 21:41:46.253"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Chama a keyword Key Limit, caso o o numero de keys máximo criadas for atingido'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.255" level="INFO">'Chama a keyword Key Limit, caso o o numero de keys máximo criadas for atingido'</msg>
+<status status="PASS" starttime="20210110 21:41:46.254" endtime="20210110 21:41:46.255"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.255" endtime="20210110 21:41:46.255"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.256" endtime="20210110 21:41:46.256"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.256" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.256" endtime="20210110 21:41:46.256"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.257" endtime="20210110 21:41:46.258"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.253" endtime="20210110 21:41:46.258"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${IsKeyLimit}</arg>
+<arg>Key Limit</arg>
+</arguments>
+<kw name="Key Limit">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia SubTarefa: Key Limit =============================================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.259" level="INFO">'=== Inicia SubTarefa: Key Limit =============================================='</msg>
+<status status="PASS" starttime="20210110 21:41:46.259" endtime="20210110 21:41:46.259"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.259" endtime="20210110 21:41:46.259"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.260" endtime="20210110 21:41:46.260"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.260" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.260" endtime="20210110 21:41:46.260"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.260" endtime="20210110 21:41:46.261"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.258" endtime="20210110 21:41:46.261"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda Botão Back To My Keys ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.262" level="INFO">'Aguarda Botão Back To My Keys ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:46.262" endtime="20210110 21:41:46.262"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.262" endtime="20210110 21:41:46.262"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.263" endtime="20210110 21:41:46.263"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.263" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.263" endtime="20210110 21:41:46.263"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.263" endtime="20210110 21:41:46.264"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.262" endtime="20210110 21:41:46.264"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[1]/a/span[2]</arg>
+</arguments>
+<assign>
+<var>${BackKeys}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.265" level="INFO">${BackKeys} = xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[1]/a/span[2]</msg>
+<status status="PASS" starttime="20210110 21:41:46.265" endtime="20210110 21:41:46.265"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Clica no botão Back To My Keys'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.265" level="INFO">'Clica no botão Back To My Keys'</msg>
+<status status="PASS" starttime="20210110 21:41:46.265" endtime="20210110 21:41:46.265"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.265" endtime="20210110 21:41:46.266"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.266" endtime="20210110 21:41:46.266"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.267" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.266" endtime="20210110 21:41:46.267"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.267" endtime="20210110 21:41:46.268"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.265" endtime="20210110 21:41:46.268"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${BackKeys}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.268" level="INFO">Clicking element 'xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[1]/a/span[2]'.</msg>
+<status status="PASS" starttime="20210110 21:41:46.268" endtime="20210110 21:41:46.330"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Seta mensagem do numero maximo de keys criadas atingido'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.332" level="INFO">'Seta mensagem do numero maximo de keys criadas atingido'</msg>
+<status status="PASS" starttime="20210110 21:41:46.331" endtime="20210110 21:41:46.332"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.332" endtime="20210110 21:41:46.332"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.333" endtime="20210110 21:41:46.333"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.334" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.333" endtime="20210110 21:41:46.334"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.334" endtime="20210110 21:41:46.335"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.331" endtime="20210110 21:41:46.335"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>'Limite n° de chaves criadas excedido, será utilizada a última existente'</arg>
+</arguments>
+<assign>
+<var>${StatusKeyApi}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.336" level="INFO">${StatusKeyApi} = 'Limite n° de chaves criadas excedido, será utilizada a última existente'</msg>
+<status status="PASS" starttime="20210110 21:41:46.335" endtime="20210110 21:41:46.336"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Seta variavel global referente a mensagem do limite de keys criadas atingidas'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.337" level="INFO">'Seta variavel global referente a mensagem do limite de keys criadas atingidas'</msg>
+<status status="PASS" starttime="20210110 21:41:46.337" endtime="20210110 21:41:46.337"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.337" endtime="20210110 21:41:46.338"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.338" endtime="20210110 21:41:46.338"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.339" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.338" endtime="20210110 21:41:46.339"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.339" endtime="20210110 21:41:46.340"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.336" endtime="20210110 21:41:46.341"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${StatusKeyApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.341" level="INFO">${StatusKeyApi} = 'Limite n° de chaves criadas excedido, será utilizada a última existente'</msg>
+<status status="PASS" starttime="20210110 21:41:46.341" endtime="20210110 21:41:46.342"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Emite um log de ERROR para essa condição'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.342" level="INFO">'Emite um log de ERROR para essa condição'</msg>
+<status status="PASS" starttime="20210110 21:41:46.342" endtime="20210110 21:41:46.343"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.343" endtime="20210110 21:41:46.343"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.343" endtime="20210110 21:41:46.344"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.344" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.344" endtime="20210110 21:41:46.344"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.344" endtime="20210110 21:41:46.346"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.342" endtime="20210110 21:41:46.347"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${StatusKeyApi}</arg>
+<arg>ERROR</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.348" level="ERROR">'Limite n° de chaves criadas excedido, será utilizada a última existente'</msg>
+<status status="PASS" starttime="20210110 21:41:46.347" endtime="20210110 21:41:46.348"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.258" endtime="20210110 21:41:46.348"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.258" endtime="20210110 21:41:46.348"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Log mostrando a mensagem de status de criação da New Key'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.349" level="INFO">'Log mostrando a mensagem de status de criação da New Key'</msg>
+<status status="PASS" starttime="20210110 21:41:46.349" endtime="20210110 21:41:46.349"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.349" endtime="20210110 21:41:46.350"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.350" endtime="20210110 21:41:46.350"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.350" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.350" endtime="20210110 21:41:46.351"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.351" endtime="20210110 21:41:46.352"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.349" endtime="20210110 21:41:46.353"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${StatusKeyApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.354" level="INFO">'Limite n° de chaves criadas excedido, será utilizada a última existente'</msg>
+<status status="PASS" starttime="20210110 21:41:46.353" endtime="20210110 21:41:46.354"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:42.807" endtime="20210110 21:41:46.354"></status>
+</kw>
+<kw name="Pega Ultima Key Api da Lista">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Pega Ultima Key Api da Lista =============================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.355" level="INFO">'=== Inicia Tarefa: Pega Ultima Key Api da Lista =============================='</msg>
+<status status="PASS" starttime="20210110 21:41:46.355" endtime="20210110 21:41:46.355"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.355" endtime="20210110 21:41:46.356"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.356" endtime="20210110 21:41:46.356"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.356" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.356" endtime="20210110 21:41:46.356"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.356" endtime="20210110 21:41:46.357"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.355" endtime="20210110 21:41:46.357"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Localiza a ultima key Api da lista'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.358" level="INFO">'Localiza a ultima key Api da lista'</msg>
+<status status="PASS" starttime="20210110 21:41:46.358" endtime="20210110 21:41:46.358"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.358" endtime="20210110 21:41:46.358"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.358" endtime="20210110 21:41:46.359"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.359" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.359" endtime="20210110 21:41:46.359"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.359" endtime="20210110 21:41:46.360"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.358" endtime="20210110 21:41:46.361"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>xPath://*[@id="content"]/div/div[2]/div/div/section[2]/div/div/div[2]/ul/li[last()]/a</arg>
+</arguments>
+<assign>
+<var>${ElemApiKeyNow}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.361" level="INFO">${ElemApiKeyNow} = xPath://*[@id="content"]/div/div[2]/div/div/section[2]/div/div/div[2]/ul/li[last()]/a</msg>
+<status status="PASS" starttime="20210110 21:41:46.361" endtime="20210110 21:41:46.361"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Verifica se o elemento referente a ultima key Api da lista esta visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.362" level="INFO">'Verifica se o elemento referente a ultima key Api da lista esta visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:46.362" endtime="20210110 21:41:46.362"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.362" endtime="20210110 21:41:46.362"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.362" endtime="20210110 21:41:46.363"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.363" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.363" endtime="20210110 21:41:46.363"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.363" endtime="20210110 21:41:46.364"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.361" endtime="20210110 21:41:46.364"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${ElemApiKeyNow}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.364" endtime="20210110 21:41:46.386"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Pega o link desse elemento para acesso a ao token da key Api'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.387" level="INFO">'Pega o link desse elemento para acesso a ao token da key Api'</msg>
+<status status="PASS" starttime="20210110 21:41:46.387" endtime="20210110 21:41:46.387"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.387" endtime="20210110 21:41:46.388"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.388" endtime="20210110 21:41:46.389"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.389" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.389" endtime="20210110 21:41:46.389"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.389" endtime="20210110 21:41:46.390"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.387" endtime="20210110 21:41:46.391"></status>
+</kw>
+<kw name="Get Element Attribute" library="SeleniumLibrary">
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<arguments>
+<arg>${ElemApiKeyNow}</arg>
+<arg>href</arg>
+</arguments>
+<assign>
+<var>${urlTokenApi}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.405" level="INFO">${urlTokenApi} = https://developer.clashroyale.com/#/key/797e3b28-351f-4783-9868-3169f1cd33a5</msg>
+<status status="PASS" starttime="20210110 21:41:46.391" endtime="20210110 21:41:46.405"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Log com o link da token Key Api'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.406" level="INFO">'Log com o link da token Key Api'</msg>
+<status status="PASS" starttime="20210110 21:41:46.406" endtime="20210110 21:41:46.406"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.406" endtime="20210110 21:41:46.406"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.407" endtime="20210110 21:41:46.407"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.407" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.407" endtime="20210110 21:41:46.407"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.407" endtime="20210110 21:41:46.408"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.405" endtime="20210110 21:41:46.409"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${urlTokenApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.409" level="INFO">https://developer.clashroyale.com/#/key/797e3b28-351f-4783-9868-3169f1cd33a5</msg>
+<status status="PASS" starttime="20210110 21:41:46.409" endtime="20210110 21:41:46.409"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Vai para a url/link da token key Api'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.409" level="INFO">'Vai para a url/link da token key Api'</msg>
+<status status="PASS" starttime="20210110 21:41:46.409" endtime="20210110 21:41:46.410"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.410" endtime="20210110 21:41:46.410"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.410" endtime="20210110 21:41:46.411"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.411" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.411" endtime="20210110 21:41:46.411"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.411" endtime="20210110 21:41:46.413"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.409" endtime="20210110 21:41:46.413"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${urlTokenApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.413" level="INFO">Opening url 'https://developer.clashroyale.com/#/key/797e3b28-351f-4783-9868-3169f1cd33a5'</msg>
+<status status="PASS" starttime="20210110 21:41:46.413" endtime="20210110 21:41:46.453"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.354" endtime="20210110 21:41:46.454"></status>
+</kw>
+<kw name="Pega o Token de Autorizacao de Acesso a Api Clashroyale">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Pega o Token de Autorizacao de Acesso a Api Clashroyale ==='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.456" level="INFO">'=== Inicia Tarefa: Pega o Token de Autorizacao de Acesso a Api Clashroyale ==='</msg>
+<status status="PASS" starttime="20210110 21:41:46.455" endtime="20210110 21:41:46.456"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.456" endtime="20210110 21:41:46.457"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.457" endtime="20210110 21:41:46.457"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.458" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.457" endtime="20210110 21:41:46.458"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.458" endtime="20210110 21:41:46.460"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.455" endtime="20210110 21:41:46.460"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Aguarda painel com o Token ficar visivel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.461" level="INFO">'Aguarda painel com o Token ficar visivel'</msg>
+<status status="PASS" starttime="20210110 21:41:46.461" endtime="20210110 21:41:46.462"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.462" endtime="20210110 21:41:46.462"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.462" endtime="20210110 21:41:46.463"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.463" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.463" endtime="20210110 21:41:46.463"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.463" endtime="20210110 21:41:46.464"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.460" endtime="20210110 21:41:46.465"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[2]/form/div[1]/div/samp</arg>
+</arguments>
+<assign>
+<var>${boxTokenApi}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.465" level="INFO">${boxTokenApi} = xPath://*[@id="content"]/div/div[2]/div/div/section/div/div/div[2]/form/div[1]/div/samp</msg>
+<status status="PASS" starttime="20210110 21:41:46.465" endtime="20210110 21:41:46.465"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>${boxTokenApi}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.465" endtime="20210110 21:41:46.488"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Captura o Token do painel'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.488" level="INFO">'Captura o Token do painel'</msg>
+<status status="PASS" starttime="20210110 21:41:46.488" endtime="20210110 21:41:46.488"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.488" endtime="20210110 21:41:46.489"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.489" endtime="20210110 21:41:46.489"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.489" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.489" endtime="20210110 21:41:46.490"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.490" endtime="20210110 21:41:46.491"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.488" endtime="20210110 21:41:46.491"></status>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>${boxTokenApi}</arg>
+</arguments>
+<assign>
+<var>${TokenApi}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.510" level="INFO">${TokenApi} = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc5N2UzYjI4LTM1MWYtNDc4My05ODY4LTM...</msg>
+<status status="PASS" starttime="20210110 21:41:46.491" endtime="20210110 21:41:46.510"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Seta a variavel token como global para ser usada por outras keys'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.511" level="INFO">'Seta a variavel token como global para ser usada por outras keys'</msg>
+<status status="PASS" starttime="20210110 21:41:46.510" endtime="20210110 21:41:46.511"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.511" endtime="20210110 21:41:46.511"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.511" endtime="20210110 21:41:46.512"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.512" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.512" endtime="20210110 21:41:46.512"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.512" endtime="20210110 21:41:46.515"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.510" endtime="20210110 21:41:46.515"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${TokenApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.516" level="INFO">${TokenApi} = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc5N2UzYjI4LTM1MWYtNDc4My05ODY4LTM...</msg>
+<status status="PASS" starttime="20210110 21:41:46.515" endtime="20210110 21:41:46.516"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Mensagem de log com o valor do Token'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.516" level="INFO">'Mensagem de log com o valor do Token'</msg>
+<status status="PASS" starttime="20210110 21:41:46.516" endtime="20210110 21:41:46.517"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.517" endtime="20210110 21:41:46.517"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.517" endtime="20210110 21:41:46.517"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.518" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.517" endtime="20210110 21:41:46.518"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.518" endtime="20210110 21:41:46.519"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.516" endtime="20210110 21:41:46.519"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${TokenApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.519" level="INFO">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc5N2UzYjI4LTM1MWYtNDc4My05ODY4LTMxNjlmMWNkMzNhNSIsImlhdCI6MTYxMDMyNTYxOCwic3ViIjoiZGV2ZWxvcGVyLzE5ZDRjNzlkLWE1ZWYtZDU5NC0yNGE4LTMxMGEwNzY5Mjc0OSIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxNjQuMTYzLjE0Mi4yMSJdLCJ0eXBlIjoiY2xpZW50In1dfQ.WzsObvdgnwjI24PNpMS-GuGc1XVoWzWKFnROqr-EtFrX7qGApLyb_O7tcg9W2kY8ZRmHsXgW28uOBpMy8p8pUA</msg>
+<status status="PASS" starttime="20210110 21:41:46.519" endtime="20210110 21:41:46.520"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Mensagem para o console com o valor do Token'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.521" level="INFO">'Mensagem para o console com o valor do Token'</msg>
+<status status="PASS" starttime="20210110 21:41:46.520" endtime="20210110 21:41:46.521"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.521" endtime="20210110 21:41:46.521"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.521" endtime="20210110 21:41:46.522"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.522" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.522" endtime="20210110 21:41:46.522"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.522" endtime="20210110 21:41:46.524"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.520" endtime="20210110 21:41:46.524"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${TokenApi}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.524" endtime="20210110 21:41:46.525"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.455" endtime="20210110 21:41:46.525"></status>
+</kw>
+<kw name="Obtem Informacoes do Clan">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Obtem Informacoes do Clan ================================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.526" level="INFO">'=== Inicia Tarefa: Obtem Informacoes do Clan ================================='</msg>
+<status status="PASS" starttime="20210110 21:41:46.526" endtime="20210110 21:41:46.526"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.526" endtime="20210110 21:41:46.527"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.527" endtime="20210110 21:41:46.527"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.527" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.527" endtime="20210110 21:41:46.527"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.528" endtime="20210110 21:41:46.529"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.526" endtime="20210110 21:41:46.529"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Mensagem de log com o token confirmando a visualização do token na variavel global'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.530" level="INFO">'Mensagem de log com o token confirmando a visualização do token na variavel global'</msg>
+<status status="PASS" starttime="20210110 21:41:46.529" endtime="20210110 21:41:46.530"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.530" endtime="20210110 21:41:46.531"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.531" endtime="20210110 21:41:46.531"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.532" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.532" endtime="20210110 21:41:46.532"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.532" endtime="20210110 21:41:46.533"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.529" endtime="20210110 21:41:46.533"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${TokenApi}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.534" level="INFO">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6Ijc5N2UzYjI4LTM1MWYtNDc4My05ODY4LTMxNjlmMWNkMzNhNSIsImlhdCI6MTYxMDMyNTYxOCwic3ViIjoiZGV2ZWxvcGVyLzE5ZDRjNzlkLWE1ZWYtZDU5NC0yNGE4LTMxMGEwNzY5Mjc0OSIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIxNjQuMTYzLjE0Mi4yMSJdLCJ0eXBlIjoiY2xpZW50In1dfQ.WzsObvdgnwjI24PNpMS-GuGc1XVoWzWKFnROqr-EtFrX7qGApLyb_O7tcg9W2kY8ZRmHsXgW28uOBpMy8p8pUA</msg>
+<status status="PASS" starttime="20210110 21:41:46.533" endtime="20210110 21:41:46.534"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Executando a keyword/Custom Library &lt;Search Clan By Name&gt;'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:46.534" level="INFO">'Executando a keyword/Custom Library &lt;Search Clan By Name&gt;'</msg>
+<status status="PASS" starttime="20210110 21:41:46.534" endtime="20210110 21:41:46.534"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.534" endtime="20210110 21:41:46.535"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.535" endtime="20210110 21:41:46.535"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:46.536" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:46.535" endtime="20210110 21:41:46.536"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:46.536" endtime="20210110 21:41:46.537"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.534" endtime="20210110 21:41:46.537"></status>
+</kw>
+<kw name="Search Clan By Name" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${TokenApi}</arg>
+<arg>'The Resistance'</arg>
+<arg>'#9V2Y'</arg>
+<arg>'BR'</arg>
+</arguments>
+<assign>
+<var>${InfoClan}</var>
+</assign>
+<msg timestamp="20210110 21:41:47.833" level="INFO">${InfoClan} = {'tag': '#9V2YV8YJ', 'name': 'The resistance', 'type': 'inviteOnly', 'badgeId': 16000012, 'clanScore': 48972, 'clanWarTrophies': 3275, 'location': {'id': 57000038, 'name': 'Brazil', 'isCountry': True,...</msg>
+<status status="PASS" starttime="20210110 21:41:46.537" endtime="20210110 21:41:47.833"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Log do dicionario que contem todas as informações do Clan escolhido'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:47.834" level="INFO">'Log do dicionario que contem todas as informações do Clan escolhido'</msg>
+<status status="PASS" starttime="20210110 21:41:47.834" endtime="20210110 21:41:47.834"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.834" endtime="20210110 21:41:47.835"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.835" endtime="20210110 21:41:47.835"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:47.836" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:47.835" endtime="20210110 21:41:47.836"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.836" endtime="20210110 21:41:47.837"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:47.833" endtime="20210110 21:41:47.837"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${InfoClan}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:47.838" level="INFO">{'tag': '#9V2YV8YJ', 'name': 'The resistance', 'type': 'inviteOnly', 'badgeId': 16000012, 'clanScore': 48972, 'clanWarTrophies': 3275, 'location': {'id': 57000038, 'name': 'Brazil', 'isCountry': True, 'countryCode': 'BR'}, 'requiredTrophies': 4600, 'donationsPerWeek': 80, 'clanChestLevel': 1, 'clanChestMaxLevel': 0, 'members': 50}</msg>
+<status status="PASS" starttime="20210110 21:41:47.838" endtime="20210110 21:41:47.838"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:46.525" endtime="20210110 21:41:47.838"></status>
+</kw>
+<kw name="Obtem Informacoes Gerais dos Membros do Clan">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Obtem Informacoes Gerais dos Membros do Clan =============='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:47.839" level="INFO">'=== Inicia Tarefa: Obtem Informacoes Gerais dos Membros do Clan =============='</msg>
+<status status="PASS" starttime="20210110 21:41:47.839" endtime="20210110 21:41:47.839"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.840" endtime="20210110 21:41:47.840"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.840" endtime="20210110 21:41:47.841"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:47.841" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:47.841" endtime="20210110 21:41:47.841"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.841" endtime="20210110 21:41:47.842"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:47.839" endtime="20210110 21:41:47.843"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Executando a keyword/Custom Library &lt;Get Info Members&gt;'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:47.843" level="INFO">'Executando a keyword/Custom Library &lt;Get Info Members&gt;'</msg>
+<status status="PASS" starttime="20210110 21:41:47.843" endtime="20210110 21:41:47.843"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.844" endtime="20210110 21:41:47.844"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.844" endtime="20210110 21:41:47.845"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:47.845" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:47.845" endtime="20210110 21:41:47.845"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:47.846" endtime="20210110 21:41:47.848"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:47.843" endtime="20210110 21:41:47.848"></status>
+</kw>
+<kw name="Get Info Members" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${TokenApi}</arg>
+<arg>'The Resistance'</arg>
+<arg>'#9V2Y'</arg>
+<arg>'BR'</arg>
+</arguments>
+<assign>
+<var>${infoMembers}</var>
+</assign>
+<msg timestamp="20210110 21:41:50.054" level="INFO">${infoMembers} = [{'tag': '#290GJ20YU', 'name': 'arthur', 'role': 'member', 'lastSeen': '20210111T001212.000Z', 'expLevel': 13, 'trophies': 5320, 'arena': {'id': 54000016, 'name': 'Master II'}, 'clanRank': 1, 'previou...</msg>
+<status status="PASS" starttime="20210110 21:41:47.848" endtime="20210110 21:41:50.054"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Log da Lista formada por dicionarios com todas informações de membros do Clan'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:50.057" level="INFO">'Log da Lista formada por dicionarios com todas informações de membros do Clan'</msg>
+<status status="PASS" starttime="20210110 21:41:50.056" endtime="20210110 21:41:50.057"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.057" endtime="20210110 21:41:50.059"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.059" endtime="20210110 21:41:50.060"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:50.062" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:50.061" endtime="20210110 21:41:50.062"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.062" endtime="20210110 21:41:50.066"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:50.054" endtime="20210110 21:41:50.067"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${infoMembers}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:50.069" level="INFO">[{'tag': '#290GJ20YU', 'name': 'arthur', 'role': 'member', 'lastSeen': '20210111T001212.000Z', 'expLevel': 13, 'trophies': 5320, 'arena': {'id': 54000016, 'name': 'Master II'}, 'clanRank': 1, 'previousClanRank': 1, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#2UJ0GRPRY', 'name': '☆JOTTACLASH☆', 'role': 'coLeader', 'lastSeen': '20210111T003507.000Z', 'expLevel': 13, 'trophies': 5302, 'arena': {'id': 54000016, 'name': 'Master II'}, 'clanRank': 2, 'previousClanRank': 2, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#88J9928RQ', 'name': 'KCG៛¤₪KauanFL₪¤', 'role': 'elder', 'lastSeen': '20210110T231552.000Z', 'expLevel': 12, 'trophies': 5302, 'arena': {'id': 54000016, 'name': 'Master II'}, 'clanRank': 3, 'previousClanRank': 6, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8LQ9VLVUL', 'name': 'ㅤㅤ', 'role': 'member', 'lastSeen': '20210111T003426.000Z', 'expLevel': 13, 'trophies': 5166, 'arena': {'id': 54000015, 'name': 'Master I'}, 'clanRank': 4, 'previousClanRank': 4, 'donations': 20, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#988GJC8U', 'name': '[H]n4', 'role': 'member', 'lastSeen': '20210110T101014.000Z', 'expLevel': 13, 'trophies': 5072, 'arena': {'id': 54000015, 'name': 'Master I'}, 'clanRank': 5, 'previousClanRank': 3, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#29PVLJVV8', 'name': 'Cold Fox', 'role': 'member', 'lastSeen': '20210110T101251.000Z', 'expLevel': 13, 'trophies': 5034, 'arena': {'id': 54000015, 'name': 'Master I'}, 'clanRank': 6, 'previousClanRank': 5, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#2GV0CQLGQ', 'name': "CoCão'Flash✌", 'role': 'member', 'lastSeen': '20210110T231855.000Z', 'expLevel': 13, 'trophies': 5007, 'arena': {'id': 54000015, 'name': 'Master I'}, 'clanRank': 7, 'previousClanRank': 12, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#2R0YCJGYJ', 'name': 'cavaleiro verde', 'role': 'elder', 'lastSeen': '20210110T235134.000Z', 'expLevel': 13, 'trophies': 4997, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 8, 'previousClanRank': 10, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#RVP0U09', 'name': 'Pepemx', 'role': 'member', 'lastSeen': '20210110T043358.000Z', 'expLevel': 12, 'trophies': 4949, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 9, 'previousClanRank': 8, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8GR22QQJP', 'name': 'Ramon_RBS', 'role': 'member', 'lastSeen': '20210110T210757.000Z', 'expLevel': 13, 'trophies': 4931, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 10, 'previousClanRank': 0, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9UVU820JJ', 'name': 'Jr. Fênix', 'role': 'leader', 'lastSeen': '20210111T002929.000Z', 'expLevel': 13, 'trophies': 4927, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 11, 'previousClanRank': 7, 'donations': 10, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#V9JCQRJG', 'name': 'Samuel', 'role': 'member', 'lastSeen': '20210111T001829.000Z', 'expLevel': 13, 'trophies': 4909, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 12, 'previousClanRank': 15, 'donations': 20, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#RQP0RCG2', 'name': 'Raphael', 'role': 'member', 'lastSeen': '20210110T224918.000Z', 'expLevel': 13, 'trophies': 4908, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 13, 'previousClanRank': 9, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9JJ8J08VG', 'name': 'Maximus', 'role': 'coLeader', 'lastSeen': '20210111T001709.000Z', 'expLevel': 13, 'trophies': 4855, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 14, 'previousClanRank': 13, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8J9RGL822', 'name': '♡Cibelle♡', 'role': 'coLeader', 'lastSeen': '20210111T003119.000Z', 'expLevel': 13, 'trophies': 4834, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 15, 'previousClanRank': 11, 'donations': 10, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9PJ8L8QVG', 'name': 'Maves', 'role': 'member', 'lastSeen': '20210110T215730.000Z', 'expLevel': 13, 'trophies': 4803, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 16, 'previousClanRank': 21, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9C9Y9CRQL', 'name': 'GéH BeLo', 'role': 'coLeader', 'lastSeen': '20210110T234406.000Z', 'expLevel': 13, 'trophies': 4794, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 17, 'previousClanRank': 16, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#PU8YCRPG', 'name': 'Lucas Anzai', 'role': 'member', 'lastSeen': '20210111T003031.000Z', 'expLevel': 13, 'trophies': 4786, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 18, 'previousClanRank': 14, 'donations': 0, 'donationsReceived': 30, 'clanChestPoints': 0}, {'tag': '#YJRY08CU8', 'name': 'DARKSFIRE', 'role': 'member', 'lastSeen': '20210110T234951.000Z', 'expLevel': 11, 'trophies': 4769, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 19, 'previousClanRank': 17, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#QQ8V20J2V', 'name': 'Roy Mustang', 'role': 'member', 'lastSeen': '20210110T214537.000Z', 'expLevel': 12, 'trophies': 4705, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 20, 'previousClanRank': 22, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#99282VPPY', 'name': 'lela', 'role': 'coLeader', 'lastSeen': '20210110T234005.000Z', 'expLevel': 13, 'trophies': 4695, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 21, 'previousClanRank': 23, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#22J8J08YY', 'name': 'lord fire', 'role': 'member', 'lastSeen': '20210110T205245.000Z', 'expLevel': 12, 'trophies': 4691, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 22, 'previousClanRank': 18, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#P90GLRLPR', 'name': 'rogeriohara', 'role': 'member', 'lastSeen': '20210110T213407.000Z', 'expLevel': 12, 'trophies': 4666, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 23, 'previousClanRank': 19, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#PPJ9VLLP8', 'name': 'Galo', 'role': 'member', 'lastSeen': '20210110T211115.000Z', 'expLevel': 13, 'trophies': 4643, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 24, 'previousClanRank': 20, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#QGGG2GPYY', 'name': 'prometheus', 'role': 'member', 'lastSeen': '20210111T001256.000Z', 'expLevel': 11, 'trophies': 4616, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 25, 'previousClanRank': 25, 'donations': 10, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9088RL8QY', 'name': '"Maicon XT"', 'role': 'member', 'lastSeen': '20210110T235818.000Z', 'expLevel': 12, 'trophies': 4601, 'arena': {'id': 54000014, 'name': 'Challenger III'}, 'clanRank': 26, 'previousClanRank': 24, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9P22JQRRY', 'name': 'Ryan clash', 'role': 'member', 'lastSeen': '20210110T153412.000Z', 'expLevel': 13, 'trophies': 4585, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 27, 'previousClanRank': 27, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8C2R8GQPY', 'name': 'Careca Matador', 'role': 'member', 'lastSeen': '20210110T233827.000Z', 'expLevel': 12, 'trophies': 4577, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 28, 'previousClanRank': 28, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8Q2CCC08L', 'name': 'rafinha', 'role': 'member', 'lastSeen': '20210110T222854.000Z', 'expLevel': 13, 'trophies': 4577, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 29, 'previousClanRank': 26, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8YPRCUUL', 'name': 'L&amp;0n@rDo', 'role': 'coLeader', 'lastSeen': '20210110T233722.000Z', 'expLevel': 12, 'trophies': 4576, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 30, 'previousClanRank': 31, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#LR22QCJRP', 'name': 'vem tranquilo ✌', 'role': 'member', 'lastSeen': '20210110T225955.000Z', 'expLevel': 11, 'trophies': 4570, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 31, 'previousClanRank': 33, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#PG8UQC9QR', 'name': 'Viléu', 'role': 'member', 'lastSeen': '20210111T002108.000Z', 'expLevel': 12, 'trophies': 4557, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 32, 'previousClanRank': 0, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#L0UVUYRJV', 'name': 'Clash Williams', 'role': 'member', 'lastSeen': '20210111T003531.000Z', 'expLevel': 11, 'trophies': 4539, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 33, 'previousClanRank': 32, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8J2LRCCCP', 'name': 'Ezequiel thg', 'role': 'member', 'lastSeen': '20210110T205459.000Z', 'expLevel': 13, 'trophies': 4535, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 34, 'previousClanRank': 38, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#980U2GCQG', 'name': 'igor', 'role': 'member', 'lastSeen': '20210109T231538.000Z', 'expLevel': 12, 'trophies': 4535, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 35, 'previousClanRank': 30, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9R2P0PR9G', 'name': '⭐Wonder Woman⭐', 'role': 'member', 'lastSeen': '20210110T210953.000Z', 'expLevel': 11, 'trophies': 4527, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 36, 'previousClanRank': 29, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#QUUYGLY8C', 'name': 'F0nsek', 'role': 'coLeader', 'lastSeen': '20210110T224501.000Z', 'expLevel': 11, 'trophies': 4501, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 37, 'previousClanRank': 39, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#2VRJPUUCJ', 'name': 'Grandi', 'role': 'member', 'lastSeen': '20210111T001728.000Z', 'expLevel': 13, 'trophies': 4500, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 38, 'previousClanRank': 41, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#PV99JLJU8', 'name': 'GoOd NiGhT', 'role': 'member', 'lastSeen': '20210111T003620.000Z', 'expLevel': 11, 'trophies': 4492, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 39, 'previousClanRank': 36, 'donations': 0, 'donationsReceived': 30, 'clanChestPoints': 0}, {'tag': '#R9Q82RR', 'name': 'marcos™', 'role': 'member', 'lastSeen': '20210107T230804.000Z', 'expLevel': 13, 'trophies': 4479, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 40, 'previousClanRank': 34, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#29VCRYC92', 'name': 'Edusvieira', 'role': 'elder', 'lastSeen': '20210110T212503.000Z', 'expLevel': 13, 'trophies': 4479, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 41, 'previousClanRank': 44, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#2VUCVCPPQ', 'name': 'F&amp;LIP&amp;™', 'role': 'member', 'lastSeen': '20210109T160755.000Z', 'expLevel': 12, 'trophies': 4478, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 42, 'previousClanRank': 35, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#2PY8L88U8', 'name': 'SHAZAN CARAI', 'role': 'member', 'lastSeen': '20210110T203408.000Z', 'expLevel': 11, 'trophies': 4412, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 43, 'previousClanRank': 40, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#8CGRPRR2V', 'name': 'Moraes.Ofc', 'role': 'member', 'lastSeen': '20210111T003855.000Z', 'expLevel': 11, 'trophies': 4392, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 44, 'previousClanRank': 42, 'donations': 10, 'donationsReceived': 20, 'clanChestPoints': 0}, {'tag': '#2UQVL29CU', 'name': 'Fanatico', 'role': 'member', 'lastSeen': '20210110T231615.000Z', 'expLevel': 12, 'trophies': 4374, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 45, 'previousClanRank': 43, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#QVC8U8LQU', 'name': 'THChmap', 'role': 'elder', 'lastSeen': '20210110T221445.000Z', 'expLevel': 11, 'trophies': 4330, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 46, 'previousClanRank': 45, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#299JRCYVY', 'name': 'Uwais AL-Qorni', 'role': 'member', 'lastSeen': '20210111T001140.000Z', 'expLevel': 13, 'trophies': 4322, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 47, 'previousClanRank': 48, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#9RPCPCUJP', 'name': '⚔☯️KaKaShi☯️⚔', 'role': 'member', 'lastSeen': '20210110T162009.000Z', 'expLevel': 12, 'trophies': 4304, 'arena': {'id': 54000013, 'name': 'Challenger II'}, 'clanRank': 48, 'previousClanRank': 46, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#G22CVQRR', 'name': 'Zé ninguém', 'role': 'member', 'lastSeen': '20210110T153533.000Z', 'expLevel': 12, 'trophies': 4268, 'arena': {'id': 54000012, 'name': 'Legendary Arena'}, 'clanRank': 49, 'previousClanRank': 47, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}, {'tag': '#922PQR8Q8', 'name': '♠️BlackHam♠️', 'role': 'member', 'lastSeen': '20210110T060521.000Z', 'expLevel': 13, 'trophies': 4254, 'arena': {'id': 54000012, 'name': 'Legendary Arena'}, 'clanRank': 50, 'previousClanRank': 49, 'donations': 0, 'donationsReceived': 0, 'clanChestPoints': 0}]</msg>
+<status status="PASS" starttime="20210110 21:41:50.067" endtime="20210110 21:41:50.070"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:47.838" endtime="20210110 21:41:50.070"></status>
+</kw>
+<kw name="Obtem Lista de TAG e NOME dos Membros do Clan">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Obtem Lista de TAG e NOME dos Membros do Clan ============='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:50.073" level="INFO">'=== Inicia Tarefa: Obtem Lista de TAG e NOME dos Membros do Clan ============='</msg>
+<status status="PASS" starttime="20210110 21:41:50.072" endtime="20210110 21:41:50.073"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.073" endtime="20210110 21:41:50.074"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.074" endtime="20210110 21:41:50.075"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:50.076" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:50.075" endtime="20210110 21:41:50.076"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.076" endtime="20210110 21:41:50.079"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:50.072" endtime="20210110 21:41:50.079"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Executando a keyword/Custom Library &lt;Get List Tag Name Members&gt;'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:50.080" level="INFO">'Executando a keyword/Custom Library &lt;Get List Tag Name Members&gt;'</msg>
+<status status="PASS" starttime="20210110 21:41:50.080" endtime="20210110 21:41:50.080"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.081" endtime="20210110 21:41:50.081"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.082" endtime="20210110 21:41:50.083"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:50.084" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:50.083" endtime="20210110 21:41:50.084"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:50.084" endtime="20210110 21:41:50.088"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:50.079" endtime="20210110 21:41:50.089"></status>
+</kw>
+<kw name="Get List Tag Name Members" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${TokenApi}</arg>
+<arg>'The Resistance'</arg>
+<arg>'#9V2Y'</arg>
+<arg>'BR'</arg>
+</arguments>
+<assign>
+<var>${ListMembers}</var>
+</assign>
+<msg timestamp="20210110 21:41:52.388" level="INFO">${ListMembers} = [['#290GJ20YU', 'arthur'], ['#2UJ0GRPRY', '☆JOTTACLASH☆'], ['#88J9928RQ', 'KCG៛¤₪KauanFL₪¤'], ['#8LQ9VLVUL', 'ㅤㅤ'], ['#988GJC8U', '[H]n4'], ['#29PVLJVV8', 'Cold Fox'], ['#2GV0CQLGQ', "CoCão'Flash✌"], ...</msg>
+<status status="PASS" starttime="20210110 21:41:50.089" endtime="20210110 21:41:52.388"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Log da Lista formada por Listas com a tag e o nome dos membros do Clan'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:52.391" level="INFO">'Log da Lista formada por Listas com a tag e o nome dos membros do Clan'</msg>
+<status status="PASS" starttime="20210110 21:41:52.390" endtime="20210110 21:41:52.391"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.391" endtime="20210110 21:41:52.393"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.393" endtime="20210110 21:41:52.394"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:52.396" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:52.395" endtime="20210110 21:41:52.396"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.396" endtime="20210110 21:41:52.400"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:52.388" endtime="20210110 21:41:52.401"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${ListMembers}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:52.402" level="INFO">[['#290GJ20YU', 'arthur'], ['#2UJ0GRPRY', '☆JOTTACLASH☆'], ['#88J9928RQ', 'KCG៛¤₪KauanFL₪¤'], ['#8LQ9VLVUL', 'ㅤㅤ'], ['#988GJC8U', '[H]n4'], ['#29PVLJVV8', 'Cold Fox'], ['#2GV0CQLGQ', "CoCão'Flash✌"], ['#2R0YCJGYJ', 'cavaleiro verde'], ['#RVP0U09', 'Pepemx'], ['#8GR22QQJP', 'Ramon_RBS'], ['#9UVU820JJ', 'Jr. Fênix'], ['#V9JCQRJG', 'Samuel'], ['#RQP0RCG2', 'Raphael'], ['#9JJ8J08VG', 'Maximus'], ['#8J9RGL822', '♡Cibelle♡'], ['#9PJ8L8QVG', 'Maves'], ['#9C9Y9CRQL', 'GéH BeLo'], ['#PU8YCRPG', 'Lucas Anzai'], ['#YJRY08CU8', 'DARKSFIRE'], ['#QQ8V20J2V', 'Roy Mustang'], ['#99282VPPY', 'lela'], ['#22J8J08YY', 'lord fire'], ['#P90GLRLPR', 'rogeriohara'], ['#PPJ9VLLP8', 'Galo'], ['#QGGG2GPYY', 'prometheus'], ['#9088RL8QY', '"Maicon XT"'], ['#9P22JQRRY', 'Ryan clash'], ['#8C2R8GQPY', 'Careca Matador'], ['#8Q2CCC08L', 'rafinha'], ['#8YPRCUUL', 'L&amp;0n@rDo'], ['#LR22QCJRP', 'vem tranquilo ✌'], ['#PG8UQC9QR', 'Viléu'], ['#L0UVUYRJV', 'Clash Williams'], ['#8J2LRCCCP', 'Ezequiel thg'], ['#980U2GCQG', 'igor'], ['#9R2P0PR9G', '⭐Wonder Woman⭐'], ['#QUUYGLY8C', 'F0nsek'], ['#2VRJPUUCJ', 'Grandi'], ['#PV99JLJU8', 'GoOd NiGhT'], ['#R9Q82RR', 'marcos™'], ['#29VCRYC92', 'Edusvieira'], ['#2VUCVCPPQ', 'F&amp;LIP&amp;™'], ['#2PY8L88U8', 'SHAZAN CARAI'], ['#8CGRPRR2V', 'Moraes.Ofc'], ['#2UQVL29CU', 'Fanatico'], ['#QVC8U8LQU', 'THChmap'], ['#299JRCYVY', 'Uwais AL-Qorni'], ['#9RPCPCUJP', '⚔☯️KaKaShi☯️⚔'], ['#G22CVQRR', 'Zé ninguém'], ['#922PQR8Q8', '♠️BlackHam♠️']]</msg>
+<status status="PASS" starttime="20210110 21:41:52.401" endtime="20210110 21:41:52.402"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:50.071" endtime="20210110 21:41:52.403"></status>
+</kw>
+<kw name="Grava Arquivo CSV com Informacoes dos Membros do Clan">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Grava Arquivo CSV com Informacoes dos Membros do Clan ====='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:52.407" level="INFO">'=== Inicia Tarefa: Grava Arquivo CSV com Informacoes dos Membros do Clan ====='</msg>
+<status status="PASS" starttime="20210110 21:41:52.406" endtime="20210110 21:41:52.407"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.408" endtime="20210110 21:41:52.409"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.410" endtime="20210110 21:41:52.411"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:52.412" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:52.411" endtime="20210110 21:41:52.412"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.412" endtime="20210110 21:41:52.415"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:52.405" endtime="20210110 21:41:52.415"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Seta variavel com o diretorio/arquivo.csv'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:52.416" level="INFO">'Seta variavel com o diretorio/arquivo.csv'</msg>
+<status status="PASS" starttime="20210110 21:41:52.416" endtime="20210110 21:41:52.416"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.417" endtime="20210110 21:41:52.418"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.418" endtime="20210110 21:41:52.419"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:52.420" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:52.419" endtime="20210110 21:41:52.420"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.420" endtime="20210110 21:41:52.424"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:52.415" endtime="20210110 21:41:52.424"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/testInfoMembers.csv</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:52.425" level="INFO">${PathFileName} = infoDir/testInfoMembers.csv</msg>
+<status status="PASS" starttime="20210110 21:41:52.425" endtime="20210110 21:41:52.425"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Executando a keyword/Custom Library &lt;Write Info Members To Csv&gt;'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:52.427" level="INFO">'Executando a keyword/Custom Library &lt;Write Info Members To Csv&gt;'</msg>
+<status status="PASS" starttime="20210110 21:41:52.426" endtime="20210110 21:41:52.427"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.427" endtime="20210110 21:41:52.428"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.428" endtime="20210110 21:41:52.429"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:52.430" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:52.429" endtime="20210110 21:41:52.430"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.430" endtime="20210110 21:41:52.433"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:52.425" endtime="20210110 21:41:52.433"></status>
+</kw>
+<kw name="Write Info Members To Csv" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${TokenApi}</arg>
+<arg>'The Resistance'</arg>
+<arg>'#9V2Y'</arg>
+<arg>'BR'</arg>
+<arg>${PathFileName}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:52.433" endtime="20210110 21:41:54.717"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Executando a keyword/Custom Library &lt;Get Full Path Csv File&gt;'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:54.719" level="INFO">'Executando a keyword/Custom Library &lt;Get Full Path Csv File&gt;'</msg>
+<status status="PASS" starttime="20210110 21:41:54.719" endtime="20210110 21:41:54.719"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.720" endtime="20210110 21:41:54.721"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.721" endtime="20210110 21:41:54.722"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.723" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:54.722" endtime="20210110 21:41:54.723"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.723" endtime="20210110 21:41:54.726"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:54.717" endtime="20210110 21:41:54.726"></status>
+</kw>
+<kw name="Get Full Path Csv File" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>Z:\\workspacePrimeControl</arg>
+<arg>${PathFileName}</arg>
+</arguments>
+<assign>
+<var>${FullPathFile}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.727" level="INFO">${FullPathFile} = Z:/workspacePrimeControl/infoDir/testInfoMembers.csv</msg>
+<status status="PASS" starttime="20210110 21:41:54.726" endtime="20210110 21:41:54.727"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Variavel com a informação do caminho completo do arquivo csv'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:54.728" level="INFO">'Variavel com a informação do caminho completo do arquivo csv'</msg>
+<status status="PASS" starttime="20210110 21:41:54.728" endtime="20210110 21:41:54.728"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.728" endtime="20210110 21:41:54.729"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.729" endtime="20210110 21:41:54.730"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.731" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:54.730" endtime="20210110 21:41:54.731"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.731" endtime="20210110 21:41:54.733"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:54.727" endtime="20210110 21:41:54.734"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>O caminho completo do csv de informações sobre membros é: ${FullPathFile}</arg>
+</arguments>
+<assign>
+<var>${infoCsv}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.734" level="INFO">${infoCsv} = O caminho completo do csv de informações sobre membros é: Z:/workspacePrimeControl/infoDir/testInfoMembers.csv</msg>
+<status status="PASS" starttime="20210110 21:41:54.734" endtime="20210110 21:41:54.734"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Log com o caminho completo do arquivo csv'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:54.736" level="INFO">'Log com o caminho completo do arquivo csv'</msg>
+<status status="PASS" starttime="20210110 21:41:54.735" endtime="20210110 21:41:54.736"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.736" endtime="20210110 21:41:54.737"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.737" endtime="20210110 21:41:54.738"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.739" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:54.738" endtime="20210110 21:41:54.739"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.739" endtime="20210110 21:41:54.741"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:54.735" endtime="20210110 21:41:54.742"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${infoCsv}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:54.742" level="INFO">O caminho completo do csv de informações sobre membros é: Z:/workspacePrimeControl/infoDir/testInfoMembers.csv</msg>
+<status status="PASS" starttime="20210110 21:41:54.742" endtime="20210110 21:41:54.743"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:52.404" endtime="20210110 21:41:54.743"></status>
+</kw>
+<kw name="Executa Teardown" type="teardown">
+<kw name="Registrar">
+<arguments>
+<arg>'=== Inicia Tarefa: Executa Teardown =========================================='</arg>
+<arg>t</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:54.747" level="INFO">'=== Inicia Tarefa: Executa Teardown =========================================='</msg>
+<status status="PASS" starttime="20210110 21:41:54.746" endtime="20210110 21:41:54.747"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.747" endtime="20210110 21:41:54.748"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.748" endtime="20210110 21:41:54.749"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.750" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:54.750" endtime="20210110 21:41:54.750"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.750" endtime="20210110 21:41:54.752"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:54.745" endtime="20210110 21:41:54.752"></status>
+</kw>
+<kw name="Registrar">
+<arguments>
+<arg>'Fim das Tarefas do Robo / Fecha o BROWSER'</arg>
+</arguments>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<msg timestamp="20210110 21:41:54.754" level="INFO">'Fim das Tarefas do Robo / Fecha o BROWSER'</msg>
+<status status="PASS" starttime="20210110 21:41:54.753" endtime="20210110 21:41:54.754"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${message}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.754" endtime="20210110 21:41:54.755"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>'............................'</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.755" endtime="20210110 21:41:54.755"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>infoDir/passosRobo.txt</arg>
+</arguments>
+<assign>
+<var>${PathFileName}</var>
+</assign>
+<msg timestamp="20210110 21:41:54.756" level="INFO">${PathFileName} = infoDir/passosRobo.txt</msg>
+<status status="PASS" starttime="20210110 21:41:54.755" endtime="20210110 21:41:54.756"></status>
+</kw>
+<kw name="Data Register" library="PrimeControlApiClashroyale">
+<arguments>
+<arg>${PathFileName}</arg>
+<arg>${message}</arg>
+<arg>${tipoKw}</arg>
+</arguments>
+<status status="PASS" starttime="20210110 21:41:54.756" endtime="20210110 21:41:54.758"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:54.752" endtime="20210110 21:41:54.758"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210110 21:41:54.758" endtime="20210110 21:41:57.034"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:54.744" endtime="20210110 21:41:57.034"></status>
+</kw>
+<status status="PASS" starttime="20210110 21:41:34.032" endtime="20210110 21:41:57.036" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210110 21:41:33.788" endtime="20210110 21:41:57.040"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tasks</stat>
+<stat pass="1" fail="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="rpaClashroyale">rpaClashroyale</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210110 21:41:46.348" level="ERROR">'Limite n° de chaves criadas excedido, será utilizada a última existente'</msg>
+</errors>
+</robot>
